@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* --- Page Setting --- */
+body {
+	margin: auto;
+	text-align: center;
+	font-family: 'BonvenoCFL', Arial, Helvetica, sans-serif;
+	background-image:url(./../images/bg-dot.png);
+}
+
+/* --- Common Items --- */
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover 		{	color:deeppink;	}
+img 			{	border:0;	}
+
+/* --- Common Title Setting --- */
+h1 {
+	font: 70px/70px 'Tiza', Arial, sans-serif;
+	letter-spacing: 0;
+	font-weight: border;
+	margin:0 0 20px;
+}
+h2 {
+	font: 25px/25px 'BonvenoCFL', Arial, sans-serif;
+	font-weight: border;
+	margin:15px 5px;
+}
+h3 {
+	font: 30px/30px 'BonvenoCFL', Arial, sans-serif;
+	font-weight: normal;
+}
+
+/* ---------------------------------------- */
+
+.pofobox{}				/* --- Class for jquery lightBox --- */
+.goMenu{
+	margin:50px 0 100px 0;
+	display:block;
+	float:right;
+	width:200px;
+	padding:5px 20px;
+	text-align:right;
+	font: 15px/20px 'Tiza', Arial, sans-serif;
+	color:lightblue;
+	background-color:white;
+-webkit-border-radius: 15px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius: 15px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-radius: 15px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+/* --- Common Pane Setting --- */
+.page{
+	background-image:url(./../images/bg-dot.png);
+}
+.pane{
+	text-align: left;
+	margin: auto;
+	padding: 50px 0;
+	width:950px;
+}
+.pane img{
+	width:50px;
+	height:50px;
+}
+.pane span{							/* --- Page Title Box --- */
+	display:block;
+	float:left; 
+	width:350px;
+	margin:0;
+}
+.pane div{							/* --- Page Detail Box --- */	
+	padding: 30px;
+	text-align:left;
+	font-size:10px;
+	line-height:180%;
+	color:white;
+-webkit-border-radius: 20px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius: 20px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-radius: 20px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.desp{								/* --- Page Detail Box --- */	
+	background-color:white;
+	display:block;
+	float:right;
+	margin:10px 5px;
+	font-size:12px;
+	line-height:20px;
+	color:#663399!important;
+}
+
+
+
+/* --- Panes Setting --- */
+#paneMenu {		
+	height:1000px;
+}
+.page h1{ color:white;	}
+#about {	}
+#design .desp{
+	margin:10px 5px;
+}
+#art h1{
+	font: 200px/200px;
+}
+.remark{
+	font-size:12px;
+}
+
+.inline{
+	padding:50px 20px;display: none; 
+}
+
+div, span {
+/*	border: 1px solid red;
+*/
+}
+
+
+
+
+/* --- Fonts Setting --- */
+/* */
+@font-face {
+    font-family: 'BonvenoCFL';
+    src: url('./../fonts/BonvenoCF-Light-webfont.eot');
+    src: url('./../fonts/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('./../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('./../fonts/BonvenoCF-Light-webfont.svg#BonvenoCFLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tiza';
+    src: url('./../fonts/tiza-webfont.eot');
+    src: url('./../fonts/tiza-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/tiza-webfont.woff') format('woff'),
+         url('./../fonts/tiza-webfont.ttf') format('truetype'),
+         url('./../fonts/tiza-webfont.svg#TizaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+

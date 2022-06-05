@@ -1,0 +1,278 @@
+body {
+	background:#b2b2b2 url(../images/layout/bg.png);
+	margin:0px;
+	padding:0px;
+	color:#587088;
+}
+div {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+a {
+	color: #6699cc;
+	text-decoration: none;
+	outline:expression(hideFocus='true'); outline:0; 
+}
+a:hover { color:#FF3300; }
+
+ul { list-style:circle;}
+li { padding: 5pt; }
+
+img {	border:0px;	}
+
+
+/***************	Main Layout	***************/
+#bg_top {
+	background:url(../images/layout/bg_top.png) repeat-x;
+	margin:0px auto;
+	text-align:center;
+}
+#outbox{
+	background: white url(../images/layout/bg_shadow.png);
+	width:984px;
+	margin:0px auto;
+}	
+#inbox{
+	margin:0px auto;
+	width:980px;
+	background-color: #FFFFFF;
+	text-align:left;
+}
+#footer{
+	text-align:center;
+	font-size:9px;
+	color:#666666;
+	padding:50px 0px 20px;
+}
+#main{
+	clear:both;
+	min-height:177px;
+
+}
+
+/***************	Top Area	***************/
+
+#top_area{
+	background: url(../images/layout/ta_bg.png);
+	height:138px;
+}
+#top_area img{ float:left; }
+
+.top_banner{
+	float:right;
+	margin: 25px 10px 0px 0px;
+}
+
+.backtop {
+	text-align:right;
+}
+
+
+/***************	Color Title Box 	***************/
+
+.title_m {
+	margin:2px 10px;
+	padding:5px 10px;
+	color: #663366;
+	font-size:12pt;
+	font-weight:bolder;
+	border-bottom:1px solid #663366;
+}
+
+.box_m {
+	margin:10px;
+	padding:0px 0px 0px 10px;
+	color: #663366;
+	font-size:8pt;
+}
+.box_m a { color:#996699; }
+
+ 
+
+/***************	Menu Area	***************/
+
+#menu_area{
+	background: url(../images/layout/ma_bg.png) repeat-x;
+	height:31px;
+}
+
+.main_menu{
+	float:left;
+	padding: 0px 10px;
+}
+.lang{
+	float:right;
+	padding: 0px 10px;
+	height:29px;
+}
+
+#lmenu_area{
+	float:left;
+	background: gold;
+	width: 180px;
+}
+.more {
+	float:right;
+	padding: 5px 10px 1px ;
+	line-height: 10px;
+	height:20px;
+}
+.more img{ padding-top: 2px ;}
+
+
+
+/*------------------ Page Content For Index ------------------ */
+
+#left_box {
+	float:left;
+	width: 600px;
+	padding: 20px 5px 20px;
+	margin: 0px 0px 0px 10px;
+	border-right: #587088 1px solid;
+}
+
+#right_box {
+	float:right;
+	width: 330px;
+	padding: 20px 0px;
+	margin: 0px 10px 0px 5px;
+}
+
+
+/* News ------------------ */
+#main_news_title{
+	padding-left: 10px;
+	height: 25px;
+	padding-bottom: 2px;
+	margin: 5px 0px;
+	border-bottom: #587088 1px solid;	
+}
+#main_news_title img {	float:left; } 
+
+.news_title {
+	font-weight:bold;
+	margin: 5px 0px;
+	padding: 2px 15px;
+	background-color: #e5e5e5;
+	
+	color:#6699cc; 
+}
+
+.left_body {
+	padding: 10px 20px 20px;
+}
+.left_body img { float:left; padding: 5px;	}
+
+.left_body span{
+	display:block;
+	width:380px;
+	float:right;
+}
+
+
+
+/* MC and CH ------------------ */
+
+#main_mc_title, 
+#main_ch_title {
+	padding-left: 10px;
+	height: 20px;
+	padding-bottom: 2px;
+	margin: 10px 0px 5px 0px;
+}
+
+#main_mc_title {	border-bottom: #663366 1px solid;	}
+#main_mc_title img {	float:left; } 
+
+#main_ch_title {	border-bottom: #7f5d1d 1px solid;	}
+#main_ch_title img {	float:left; }
+
+.right_body {
+	padding: 10px 0px 10px;
+}
+.right_body img { float:left; padding: 5px;	}
+
+.right_body2 { float:left; padding: 5px; width:200px;	}
+
+.mc_title {
+	font-weight:bold;
+	margin: 5px 0px;
+	padding: 2px 15px;
+	color: #993399;
+}
+.ch_title {
+	font-weight:bold;
+	margin: 5px 0px;
+	padding: 2px 15px;
+	color: #996600;
+}
+
+
+
+/***************	Pages	***************/
+
+
+.page_box{
+	background:url(../images/title-bg.jpg) repeat-x center -25px ;
+	vertical-align:top;
+}
+
+.page_title{
+	margin: 15px 20px 10px 30px;
+	font-size: 14px;
+	color:#587088;
+}
+.page_body{
+	padding: 5px 10px 30px 50px;
+}
+.page_body table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.page_menu{
+	border-right: #dddddd 1px solid;
+	width: 200px;
+}
+.menu_opt {
+	margin: 0px 20px;
+	padding: 5px 10px;
+	border-bottom: #eeeeee 1px solid;
+	text-align:right;
+	vertical-align:middle;
+	line-height:40px;
+	font-weight:bold;
+}
+.menu_opt a{
+	display:block;
+	background: white;
+	font-weight:normal;
+}
+
+.tb_review{
+	margin-left:30px;
+}
+
+
+/***************	My Channel	***************/
+.ch_intro_box {
+	margin: 5px 40px;
+	background:url(../images/ch_intro_bg.jpg) no-repeat top;
+	width: 450px; 
+	float:left;
+	color:#336699;
+}
+.ch_intro_box table { margin:20px; color:#336699; }
+.ch_intro_box h1 {  font-size:16px; font-weight:normal; line-height: 100%; }
+.ch_intro_box h2 {  font-size:13px; line-height: 100%; }
+
+
+
+
+
+
+
+
+
+
+

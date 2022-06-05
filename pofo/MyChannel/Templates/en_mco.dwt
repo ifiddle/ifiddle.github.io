@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>My Channel</title>
+<!-- TemplateEndEditable -->
+<link href="../css/default.css" rel="stylesheet" type="text/css" />
+<link href="../css/mco.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/default.js"></script>
+<style type="text/css">
+<!--
+#center_box{
+	width:620px;	
+}
+
+.logos img{ padding:10px; }
+-->
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body onLoad="MM_preloadImages('../images/layout/mco/ma_about_on.png','../images/layout/en/mco/mabt_home_on.png','../images/layout/en/mco/mabt_mc_on.png','../images/layout/en/mco/mabt_mco_on.png','../images/layout/en/mco/mabt_service_on.png','../images/layout/en/mco/mabt_ad_on.png','../images/layout/en/mco/mabt_about_on.png','../images/layout/en/mco/mabt_mco_ch_on.png','../images/layout/en/mco/mabt_mco_feature_on.png','../images/layout/en/mco/mabt_mco_faq_on.png','../images/layout/mco/ma_lang_tc_on.png','../images/layout/mco/ma_lang_sc_on.png','../images/layout/mco/ma_lang_en_on.png')">
+<div id="bg_top">
+  <div id="outbox">
+    <div id="inbox">
+      <div id="top_area"> <img src="../images/layout/ta_logo.png" />
+        <div class="top_banner"></div>
+        <div class="top_banner">
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="760" height="100" title="MCO Banner">
+            <param name="movie" value="../tc/mco_banner.swf" />
+            <param name="quality" value="high" />
+            <embed src="../tc/mco_banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="100"></embed>
+          </object>
+          <br clear="all" />
+        </div>
+        <br clear="all">
+      </div>
+      <div id="menu_area">
+        <div class="main_menu"> <a href="../index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('HOME','','../images/layout/en/mco/mabt_home_on.png',1)"><img src="../images/layout/en/mco/mabt_home_off.png" name="HOME" width="65" height="36" border="0" id="HOME" /></a><img src="../images/layout/mco/ma_between.png"/><a href="../tc/ch_point.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MC','','../images/layout/en/mco/mabt_mc_on.png',1)"><img src="../images/layout/en/mco/mabt_mc_off.png" name="MC" width="112" height="36" border="0" id="MC" /></a><img src="../images/layout/mco/ma_between.png"/><a href="../en/mco_index.html"><img src="../images/layout/en/mco/mabt_mco_on.png" name="MCO" width="147" height="36" border="0" id="MCO" /></a><img src="../images/layout/mco/ma_between.png"/><a href="../tc/service.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('SERVICE','','../images/layout/en/mco/mabt_service_on.png',1)"><img src="../images/layout/en/mco/mabt_service_off.png" name="SERVICE" width="154" height="36" border="0" id="SERVICE" /></a><img src="../images/layout/mco/ma_between.png"/><a href="../tc/adv.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AD','','../images/layout/en/mco/mabt_ad_on.png',1)"><img src="../images/layout/en/mco/mabt_ad_off.png" name="AD" width="99" height="36" border="0" id="AD" /></a><img src="../images/layout/mco/ma_between.png"/><a href="../tc/about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ABOUT','','../images/layout/en/mco/mabt_about_on.png',1)"><img src="../images/layout/en/mco/mabt_about_off.png" name="ABOUT" width="87" height="36" border="0" id="ABOUT" /></a></div>
+        <div class="lang"><a href="../tc/mco_index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lang_tc','','../images/layout/mco/ma_lang_tc_on.png',1)"><img src="../images/layout/mco/ma_lang_tc_off.png" alt="TC" name="lang_tc" width="31" height="36" border="0"></a><img src="../images/layout/mco/ma_between.png"/><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lang_sc','','../images/layout/mco/ma_lang_sc_on.png',1)"><img src="../images/layout/mco/ma_lang_sc_off.png" name="lang_sc" width="31" height="36" border="0" id="lang_sc" /></a><img src="../images/layout/mco/ma_between.png"/><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lang_en','','../images/layout/mco/ma_lang_en_on.png',1)"><img src="../images/layout/mco/ma_lang_en_on.png" width="31" height="36"></a></div>
+      </div>
+      <div id="main"> <img src="../images/layout/mco/lma_top.png" /><br>
+		<!-- TemplateBeginEditable name="leftMenu" -->
+        <div id="lmenu_area">
+        <a href="mco_intro.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mco_intro','','../images/layout/en/mco/mabt_mco_intro_on.png',0)"><img src="../images/layout/en/mco/mabt_mco_intro_off.png" name="mco_intro" width="180" height="30" border="0" id="mco_intro" /></a><a href="mco_ch.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mco_ch','','../images/layout/en/mco/mabt_mco_ch_on.png',1)"><img src="../images/layout/en/mco/mabt_mco_ch_off.png" name="mco_ch" width="180" height="30" border="0" id="mco_ch" /></a><a href="mco_feature.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mco_fearure','','../images/layout/en/mco/mabt_mco_feature_on.png',1)"><img src="../images/layout/en/mco/mabt_mco_feature_off.png" name="mco_fearure" width="180" height="30" border="0" id="mco_fearure" /></a><a href="mco_faq.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mco_faq','','../images/layout/en/mco/mabt_mco_faq_on.png',1)"><img src="../images/layout/en/mco/mabt_mco_faq_off.png" name="mco_faq" width="180" height="30" border="0" id="mco_faq" /></a><a href="mco_dl.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mco_dl','','../images/layout/en/mco/mabt_mco_dl_on.png',0)"><img src="../images/layout/en/mco/mabt_mco_dl_off.png" name="mco_dl" width="180" height="30" border="0" id="mco_dl" /></a><img src="../images/layout/mco/lma_bottom.png" /></div>
+		<!-- TemplateEndEditable -->
+        <!-- TemplateBeginEditable name="contentArea" -->
+		<div id="center_box">
+          <div class="headline"><img src="../images/layout/en/mco/title_mco_feature.png" width="598" height="57" /> </div>
+		  <div class="center_body"> <br />
+              <table align="center">
+                <tr>
+                  <td colspan="2" class="title"><p><img src="../images/mco/topic_feat_chooice.png" alt="各個頻道，由您所選" width="184" height="20" /></p></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><ul>
+                      <li>由飲食、遊樂、時尚、健康、手機，到最新的電影預告片及MTV，節目內容多姿多采，源源不絕，為您播放</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title"><img src="../images/mco/topic_feat_game.png" alt="互動遊戲，優惠不絕" width="184" height="21" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><ul>
+                      <li>欣賞完最新的節目或片段，更可以即時參加抽獎，贏取豐富禮品</li>
+                    <li>人人有獎，永不落空</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title"><img src="../images/mco/topic_feat_service.png" alt="MCO 服務中心" width="134" height="20" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><ul>
+                      <li>玩樂獎賞，參與小遊戲，換領豐富禮品</li>
+                    <li>採用 MCO 積分制度，多睇多賞，多玩多送</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title"><img src="../images/mco/topic_feat_easy.png" alt="容易取得" width="82" height="19" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><ul>
+                      <li>軟件只需透過互聯網下載</li>
+                    <li>軟件體積細小</li>
+                    <li>安裝及下載過程只需要一分鐘時間</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="title"><img src="../images/mco/topic_feat_fast.png" alt="高度效能及安全性" width="163" height="21" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><ul>
+                      <li>使用異步傳輸模式下載檔案，可離線觀看影片</li>
+                    <li>只會於電腦及網絡閒置時下載影片，不影響電腦效能</li>
+                    <li>影片均已經過最佳化處理，使播放時份外流暢</li>
+                    <li>通過Microsoft 最新應用程序規格</li>
+                    <li>不會透過網絡傳輸您的重要個人資料</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+              </table>
+		    <br clear="all">
+          </div>
+		  <p>&nbsp;</p>
+		  <br clear="all">
+        </div>
+		<!-- TemplateEndEditable --><br clear="all">
+      </div>
+      <br clear="all">
+      <div id="footer">
+        <p>&nbsp;</p>
+        <p>2007 &copy; My Channel. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

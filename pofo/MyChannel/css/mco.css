@@ -1,0 +1,105 @@
+
+div,table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color:#587088;
+}
+
+/***************	Cover Default Setting	***************/
+#main{
+	background: white url(../images/layout/main_bg.png) repeat-x top;
+	height:31px;
+
+}
+
+
+#menu_area{
+	background: url(../images/layout/mco/ma_bg.png) repeat-x;
+	height:36px;
+}
+
+#lmenu_area{
+	background: #1b1c90;
+}
+img {	border:0px;	}
+
+/***************	Layout 	***************/
+.spacer{
+	width:1px;
+	height:400px;
+	float:left;
+
+}
+.center_body{
+	width:700px;
+}
+
+#center_box{
+	float:left;
+	width:760px;	
+	line-height:200%;
+}
+#center_box .title{
+	font-size:15pt;
+	font-weight:bold;
+	color:#cc3366;
+	border-bottom:1px solid #dddddd;
+	vertical-align: top;
+}
+#center_box table{ width:600px; }
+#center_box ul{ list-style-image: url(../images/layout/bu.png);  line-height:30px;}
+
+#faq_list {
+	font-size:10pt;
+	font-weight:bold;
+	color:#3333cc;
+	vertical-align: text-top;
+}
+
+#right_box{
+	float:right;
+	width:180px;
+	padding:0px;
+	margin:0px;
+}
+
+.content_box{
+	padding: 20px 20px 40px 20px;
+}
+
+.headline{
+	padding: 10px 0px 3px 10px;
+}
+
+
+/*---------------	TOP	---------------------*/
+.logos{
+	padding:5px 10px; 
+	text-align:center;
+}
+.logos img{ margin:5px 10px; }
+
+/*---------------	FAQ	---------------------*/
+.tb_title {
+	font-weight: bold;
+	width: 100px;
+	vertical-align:top;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.tb_field {
+	padding: 10px 0px;
+}
+
+.tb_row1 {
+	background-color: #ecf1f3;
+}
+.tb_row2 {
+	background-color: #f4f7f8;
+}
+
+
+
+
